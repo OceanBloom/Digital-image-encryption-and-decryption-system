@@ -1,0 +1,158 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\人工智能比赛\图像加密解密系统\源代码\Digital_Image_Encryption_and_Decryption_System.prj" location="D:\人工智能比赛\图像加密解密系统\源代码" name="Digital_Image_Encryption_and_Decryption_System" preferred-package-location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>DigitaImageEncryptionAndDecryptionSystem</param.appname>
+    <param.icon>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>曹海洋</param.authnamewatermark>
+    <param.email>1064611704@qq.com</param.email>
+    <param.company>河南大学</param.company>
+    <param.summary>一款高效、安全的数字图像加密解密系统！</param.summary>
+    <param.description>在当下数字时代，图像信息安全不容忽视。这款软件能同时支持对单通道、三通道图片加密及解密，支持对jpg、jpeg、png、tif、tiff、bmp等众多图像格式加密及解密。该加密系统包含了对图像像素值和像素排列的双重加密，并且用户可以自己选择加密次数，安全系数高。解密系统中用户无需知道加密图像的加密次数，一键即可解密，方便又快捷！</param.description>
+    <param.screenshot>D:\My Bags\下载\图像加密解密系统.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\河南大学\DigitaImageEncryptionAndDecryptionSystem\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>D:\My Bags\下载\图像加密解密系统.png</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing</param.intermediate>
+    <param.files.only>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution_files_only</param.files.only>
+    <param.output>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution</param.output>
+    <param.logdir>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 在当下数字时代，图像信息安全不容忽视。这款软件能同时支持对单通道、三通道图片加密及解密，支持对jpg、jpeg、png、tif、tiff、bmp等众多图像格式加密及解密。该加密系统包含了对图像像素值和像素排列的双重加密，并且用户可以自己选择加密次数，安全系数高。解密系统中用户无需知道加密图像的加密次数，一键即可解密，方便又快捷！</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\menu.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Col_Transform.m</file>
+      <file>${PROJECT_ROOT}\Decryption.mlapp</file>
+      <file>${PROJECT_ROOT}\Digital_Image_Decryption.m</file>
+      <file>${PROJECT_ROOT}\Digital_Image_Encryption.m</file>
+      <file>${PROJECT_ROOT}\Distribution_Transform.m</file>
+      <file>${PROJECT_ROOT}\Encryption.mlapp</file>
+      <file>${PROJECT_ROOT}\Figure_Transform.m</file>
+      <file>${PROJECT_ROOT}\Row_Transform.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="DigitaImageEncryptionAndDecryptionSystem.exe" optional="false">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\DigitaImageEncryptionAndDecryptionSystem.exe</file>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="splash.png" optional="false">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\splash.png</file>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="readme.txt" optional="true">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>F:\Matlab 2019b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
