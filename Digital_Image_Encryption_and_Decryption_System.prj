@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="D:\人工智能比赛\图像加密解密系统\源代码\Digital_Image_Encryption_and_Decryption_System.prj" location="D:\人工智能比赛\图像加密解密系统\源代码" name="Digital_Image_Encryption_and_Decryption_System" preferred-package-location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
-    <param.appname>DigitaImageEncryptionAndDecryptionSystem</param.appname>
+  <configuration file="F:\MATLAB相关\MATLAB程序\数字图像加密解密系统\图像加密解密系统\源代码\Digital_Image_Encryption_and_Decryption_System.prj" location="F:\MATLAB相关\MATLAB程序\数字图像加密解密系统\图像加密解密系统\源代码" name="Digital_Image_Encryption_and_Decryption_System" preferred-package-location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Digital_Image_Encryption_and_Decryption_System</param.appname>
     <param.icon>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon.ico</param.icon>
     <param.icons>
       <file>${PROJECT_ROOT}\Digital_Image_Encryption_and_Decryption_System_resources\icon_48.png</file>
@@ -16,21 +16,21 @@
     <param.description>在当下数字时代，图像信息安全不容忽视。这款软件能同时支持对单通道、三通道图片加密及解密，支持对jpg、jpeg、png、tif、tiff、bmp等众多图像格式加密及解密。该加密系统包含了对图像像素值和像素排列的双重加密，并且用户可以自己选择加密次数，安全系数高。解密系统中用户无需知道加密图像的加密次数，一键即可解密，方便又快捷！</param.description>
     <param.screenshot>D:\My Bags\下载\图像加密解密系统.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\河南大学\DigitaImageEncryptionAndDecryptionSystem\</param.installpath.string>
+    <param.installpath.string>\河南大学\Digital_Image_Encryption_and_Decryption_System\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo>D:\My Bags\下载\图像加密解密系统.png</param.logo>
     <param.install.notes />
     <param.target.install.notes />
-    <param.intermediate>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing</param.intermediate>
-    <param.files.only>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution_files_only</param.files.only>
-    <param.output>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_redistribution</param.output>
-    <param.logdir>D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System</param.logdir>
+    <param.intermediate>D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing</param.intermediate>
+    <param.files.only>D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_redistribution_files_only</param.files.only>
+    <param.output>D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_redistribution</param.output>
+    <param.logdir>D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
     <param.support.packages />
-    <param.web.mcr>false</param.web.mcr>
-    <param.package.mcr>true</param.package.mcr>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
@@ -46,9 +46,7 @@
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments 
- Description 
- 	 在当下数字时代，图像信息安全不容忽视。这款软件能同时支持对单通道、三通道图片加密及解密，支持对jpg、jpeg、png、tif、tiff、bmp等众多图像格式加密及解密。该加密系统包含了对图像像素值和像素排列的双重加密，并且用户可以自己选择加密次数，安全系数高。解密系统中用户无需知道加密图像的加密次数，一键即可解密，方便又快捷！</param.help.text>
+	 input arguments</param.help.text>
     <unset>
       <param.version />
       <param.guid />
@@ -60,6 +58,8 @@
       <param.user.defined.mcr.options />
       <param.target.type />
       <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
       <param.no.mcr />
       <param.web.mcr.name />
       <param.package.mcr.name />
@@ -87,9 +87,9 @@
       <file>${PROJECT_ROOT}\Row_Transform.m</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="DigitaImageEncryptionAndDecryptionSystem.exe" optional="false">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\DigitaImageEncryptionAndDecryptionSystem.exe</file>
-      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="splash.png" optional="false">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\splash.png</file>
-      <file location="D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing" name="readme.txt" optional="true">D:\人工智能比赛\图像加密解密系统\成品\Digital_Image_Encryption_and_Decryption_System\for_testing\readme.txt</file>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing" name="splash.png" optional="false">D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing\splash.png</file>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing" name="Digital_Image_Encryption_and_Decryption_System.exe" optional="false">D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing\Digital_Image_Encryption_and_Decryption_System.exe</file>
+      <file location="D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing" name="readme.txt" optional="true">D:\人工智能比赛\图像加密解密系统\成品new\Digital_Image_Encryption_and_Decryption_System\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
